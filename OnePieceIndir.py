@@ -16,8 +16,8 @@ chromeOp.add_argument("--incognito")
 #Kodlarda karşılatığımız hataları düzeltmek için yardım istiye bilirsiniz.
 
 print("Bölüm aralığı girmeniz gerekmektedir.")
-x=input("lütfen İLK bölümü giriniz:",int())
-y=input("lütfen SON bölümü giriniz:",int())
+x=int(input("İstediğiniz Son Bölümü Giriniz: ",))
+y=int(input("İstediğiniz Son Bölümü Giriniz: ",))
 for i in range(x,(y+1)):
     
     driver= webdriver.Chrome(ChromeDriverManager().install()) 
